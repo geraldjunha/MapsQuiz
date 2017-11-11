@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements OnStreetViewPanor
         setContentView(R.layout.activity_main);
 
         /*bMaps = (Button) findViewById(R.id.btnMap);
-        bSat = (Button) findViewById(R.id.btnSat);
-        bHy = (Button) findViewById(R.id.btnHyb);*/
+        bSatellite = (Button) findViewById(R.id.btnSat);
+        bHybrid = (Button) findViewById(R.id.btnHyb);*/
 
         /*bMaps.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnStreetViewPanor
             }
         });
 
-        bSat.setOnClickListener(new View.OnClickListener() {
+        bSatellite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (mapReady)
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements OnStreetViewPanor
             }
         });
 
-        bHy.setOnClickListener(new View.OnClickListener() {
+        bHybrid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (mapReady)
