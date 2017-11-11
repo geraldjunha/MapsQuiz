@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements OnStreetViewPanor
     MarkerOptions showare;*/
     /*GoogleMap m_map;
     Boolean mapReady = false;
-    Button bMaps, bSat, bHy;
+    Button bMaps, bSatellite, bHybrid;
     LatLng renton = new LatLng(47.489805, -122.120502);*/
 
     @Override
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements OnStreetViewPanor
         m_map.addCircle(new CircleOptions()
                 .center(renton)
                 .radius(200)
-                .strokeColor(Color.GREEN)
+                .strokeColor(Color.BLUE)
                 .fillColor(Color.argb(64, 0, 255, 0))
         );
         flyTo(SEATTLE);
